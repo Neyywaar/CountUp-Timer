@@ -12,10 +12,7 @@ html {
 }
 
 :root {
-  --main: #232323;
-  --hover: #850000;
-  --link: #000000;
-  --btn: #ffffff;
+  --main: #272829;
 }
 
 .dark-mode {
