@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Inter', sans-serif;
+}
+
+:root {
+  --main: #232323;
+  --hover: #850000;
+  --link: #000000;
+  --btn: #ffffff;
+}
+
+.dark-mode {
+  background-color: #000000;
+  color: #fff;
+  --link: #ffffff;
+  --btn: #000000;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  overflow: hidden; 
+  background-color: #000;
+}
+
+.timer-container {
+  text-align: center;
+}
+
+.timer {
+  justify-content: center; 
+  align-items: center; 
+}
+
+.time {
+  font-size: 30rem;
+  color: #fff; 
+}
+
+.time span {
+  margin: 0 0.1rem; 
+}
+
+#hours,
+#minutes,
+#seconds {
+  display: inline-block;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin: 0 0.3rem;
+}
+
+.controls {
+  margin-top: 0rem;
+}
+
+.controls {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+button {
+  padding: 1rem 4rem;
+  font-size: 2.5rem;
+  border-radius: 20rem;
+  background-color: var(--main);
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin: 0 0.5rem;
+}
